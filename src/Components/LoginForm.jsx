@@ -45,7 +45,7 @@ const LoginForm = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:3001/users?username=${formData.username}&password=${formData.password}`
+        `https://ephoria-api.onrender.com/users?username=${formData.username}&password=${formData.password}`
       );
       const users = await response.json();
 
