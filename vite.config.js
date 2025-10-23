@@ -6,4 +6,5 @@ import taiwindcss from "@tailwindcss/vite";
 // Chỉ cần plugin của React ở đây.
 export default defineConfig({
   plugins: [react(), taiwindcss()],
+  base: "/ephoria-react/",
 });
