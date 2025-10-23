@@ -1,9 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 
-// Import các trang của bạn
-import LoginForm from "./components/LoginForm.jsx";
-import CartPage from "./components/CartPage.jsx";
-import ProductDetailPage from "./components/ProductDetailPage.jsx";
+import LoginForm from "./Components/LoginForm.jsx";
+import CartPage from "./Components/CartPage.jsx";
+import ProductDetailPage from "./Components/ProductDetailPage.jsx";
 
 function App() {
   return (

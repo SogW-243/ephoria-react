@@ -49,7 +49,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Tải thư mục 'build'
-          path: './build' # (QUAN TRỌNG: Nếu bạn dùng Vite, hãy đổi thành './dist')
+          path: "./dist" # (QUAN TRỌNG: Nếu bạn dùng Vite, hãy đổi thành './dist')
 
       # 7. Deploy lên GitHub Pages
       - name: Deploy to GitHub Pages
