@@ -28,7 +28,7 @@ const CartPage = () => {
       color: "White",
       price: 145,
       quantity: 1,
-      image: "/images/product-one.png",
+      image: "images/product-one.png",
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const CartPage = () => {
       color: "Red",
       price: 180,
       quantity: 1,
-      image: "/images/product-two.png",
+      image: "images/product-two.png",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const CartPage = () => {
       color: "Blue",
       price: 240,
       quantity: 1,
-      image: "/images/product-three.png",
+      image: "images/product-three.png",
     },
   ];
 
@@ -163,7 +163,7 @@ const CartPage = () => {
 
             {/* Logo */}
             <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0">
-              <img src="./images/Logo.png" alt="Logo" className="h-11" />
+              <img src="images/Logo.png" alt="Logo" className="h-11" />
             </div>
 
             {/* Desktop Navigation */}
@@ -413,13 +413,13 @@ const CartPage = () => {
               </p>
               <div className="flex space-x-3 pt-4">
                 <div className="w-9 h-9 bg-gray-600 rounded-lg hover:scale-105 transition-transform cursor-pointer ">
-                  <img className="rounded-xl" src="./images/facebook.jpg" />
+                  <img className="rounded-xl" src="images/facebook.jpg" />
                 </div>
                 <div className="w-9 h-9 bg-gray-600 rounded-lg hover:scale-105 transition-transform cursor-pointer">
-                  <img className="rounded-xl" src="./images/instagam.jpg" />
+                  <img className="rounded-xl" src="images/instagam.jpg" />
                 </div>
                 <div className="w-9 h-9 bg-gray-600 rounded-lg hover:scale-105 transition-transform cursor-pointer">
-                  <img className="rounded-xl" src="./images/in.jpg" />
+                  <img className="rounded-xl" src="images/in.jpg" />
                 </div>
               </div>
             </div>
@@ -476,12 +476,12 @@ const CartPage = () => {
                 <h4 className="text-2xl font-bold mb-6">Download The App</h4>
                 <div className="flex sm:flex-col sm:space-x-0 sm:space-y-4 sm:w-[200px] xl:space-y-0 xl:flex-row xl:space-x-4">
                   <img
-                    src="./images/appstore.png"
+                    src="images/appstore.png"
                     alt="Google Play"
                     className=" cursor-pointer hover:scale-105 transition-transform"
                   />
                   <img
-                    src="./images/googleplay.png"
+                    src="images/googleplay.png"
                     alt="App Store"
                     className=" cursor-pointer hover:scale-105 transition-transform"
                   />

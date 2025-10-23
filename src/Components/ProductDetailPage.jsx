@@ -40,9 +40,9 @@ const ProductDetailPage = () => {
 
   // Mảng chứa đường dẫn đến các ảnh nhỏ
   const thumbnailImages = [
-    "./images/Ảnh trái nhỏ 1.png",
-    "./images/Ảnh trái nhỏ 2.png",
-    "./images/Ảnh trái nhỏ 3.png",
+    "images/Ảnh trái nhỏ 1.png",
+    "images/Ảnh trái nhỏ 2.png",
+    "images/Ảnh trái nhỏ 3.png",
   ];
 
   const similarProducts = [
@@ -51,56 +51,56 @@ const ProductDetailPage = () => {
       name: "White T-Shirt",
       brand: "Priya's Brand",
       price: "$13.00",
-      image: "./images/similar 1.jpg",
+      image: "images/similar 1.jpg",
     },
     {
       id: 2,
       name: "Dark Green Sweatshirt...",
       brand: "Roboto's Brand",
       price: "$127.00",
-      image: "./images/similar 2.jpg",
+      image: "images/similar 2.jpg",
     },
     {
       id: 3,
       name: "Levender Sweatshirt...",
       brand: "Jhanvi's Brand",
       price: "$133.00",
-      image: "./images/similar 3.jpg",
+      image: "images/similar 3.jpg",
     },
     {
       id: 4,
       name: "Urban jacket with white...",
       brand: "Sagar's Brand",
       price: "$79.00",
-      image: "./images/similar 4.jpg",
+      image: "images/similar 4.jpg",
     },
     {
       id: 5,
       name: "Plain White T-Shirt",
       brand: "Jhanvi's Brand",
       price: "$123.00",
-      image: "./images/similar 5.jpg",
+      image: "images/similar 5.jpg",
     },
     {
       id: 6,
       name: "Checks Shirt with white...",
       brand: "H.M's Brand",
       price: "$123.00",
-      image: "./images/similar 6.jpg",
+      image: "images/similar 6.jpg",
     },
     {
       id: 7,
       name: "One piece black top & ...",
       brand: "Nike's Brand",
       price: "$123.00",
-      image: "./images/similar 7.jpg",
+      image: "images/similar 7.jpg",
     },
     {
       id: 8,
       name: "Denim Blue Shirt",
       brand: "MOMO's Brand",
       price: "$38.00",
-      image: "./images/similar 8.jpg",
+      image: "images/similar 8.jpg",
     },
   ];
 
@@ -132,7 +132,7 @@ const ProductDetailPage = () => {
 
             {/* Logo */}
             <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0">
-              <img src="./images/Logo.png" alt="Logo" className="h-11" />
+              <img src="images/Logo.png" alt="Logo" className="h-11" />
             </div>
 
             {/* Desktop Navigation */}
@@ -257,7 +257,7 @@ const ProductDetailPage = () => {
             <div className="max-w-lg">
               <img
                 /* THAY ĐỔI 2: Lấy src từ mảng mainImages dựa vào state activeThumb */
-                src="./images/Ảnh to trái.png"
+                src="images/Ảnh to trái.png"
                 alt="Product"
                 className="w-full h-auto object-cover rounded-lg"
               />
@@ -451,7 +451,7 @@ const ProductDetailPage = () => {
           {/* Video/Image Section */}
           <div className="flex justify-center items-center">
             <img
-              src="./images/Frame 47.png"
+              src="images/Frame 47.png"
               alt="Product showcase"
               className="w-full h-auto rounded-lg hover:scale-105 transition-transform cursor-pointer"
             />
@@ -519,13 +519,13 @@ const ProductDetailPage = () => {
               </p>
               <div className="flex space-x-3 pt-4">
                 <div className="w-9 h-9 bg-gray-600 rounded-lg hover:scale-105 transition-transform cursor-pointer ">
-                  <img className="rounded-xl" src="./images/facebook.jpg" />
+                  <img className="rounded-xl" src="images/facebook.jpg" />
                 </div>
                 <div className="w-9 h-9 bg-gray-600 rounded-lg hover:scale-105 transition-transform cursor-pointer">
-                  <img className="rounded-xl" src="./images/instagam.jpg" />
+                  <img className="rounded-xl" src="images/instagam.jpg" />
                 </div>
                 <div className="w-9 h-9 bg-gray-600 rounded-lg hover:scale-105 transition-transform cursor-pointer">
-                  <img className="rounded-xl" src="./images/in.jpg" />
+                  <img className="rounded-xl" src="images/in.jpg" />
                 </div>
               </div>
             </div>
@@ -582,12 +582,12 @@ const ProductDetailPage = () => {
                 <h4 className="text-2xl font-bold mb-6">Download The App</h4>
                 <div className="flex sm:flex-col sm:space-x-0 sm:space-y-4 sm:w-[200px] xl:space-y-0 xl:flex-row xl:space-x-4">
                   <img
-                    src="./images/appstore.png"
+                    src="images/appstore.png"
                     alt="Google Play"
                     className=" cursor-pointer hover:scale-105 transition-transform"
                   />
                   <img
-                    src="./images/googleplay.png"
+                    src="images/googleplay.png"
                     alt="App Store"
                     className=" cursor-pointer hover:scale-105 transition-transform"
                   />

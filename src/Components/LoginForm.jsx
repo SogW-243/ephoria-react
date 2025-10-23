@@ -80,7 +80,7 @@ const LoginForm = () => {
         {/* === Phần bên trái: Hình ảnh minh họa === */}
         <div className="hidden md:flex md:w-1/2 items-center justify-center p-16 bg-[#a9afb92a]">
           <img
-            src="/images/Group 6567.png"
+            src="images/Group 6567.png"
             alt="Login Illustration"
             className="max-w-full h-auto"
           />
@@ -95,7 +95,7 @@ const LoginForm = () => {
               </h1>
               <div className="mt-2 flex items-center">
                 <img
-                  src="/images/log-in.png"
+                  src="images/log-in.png"
                   alt="Login icon"
                   className="mr-2 h-6 w-6"
                 />
@@ -122,7 +122,7 @@ const LoginForm = () => {
                 <div className="relative">
                   <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                     <img
-                      src="/images/user.png"
+                      src="images/user.png"
                       alt="user icon"
                       className="h-5 w-5 text-gray-400"
                     />
@@ -149,7 +149,7 @@ const LoginForm = () => {
                 <div className="relative">
                   <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                     <img
-                      src="/images/lock.png"
+                      src="images/lock.png"
                       alt="lock icon"
                       className="h-5 w-5 text-gray-400"
                     />
@@ -169,9 +169,7 @@ const LoginForm = () => {
                   >
                     <img
                       src={
-                        showPassword
-                          ? "/images/eye-slash.png"
-                          : "/images/eye.png"
+                        showPassword ? "images/eye-slash.png" : "images/eye.png"
                       }
                       alt="toggle password visibility"
                       className="h-5 w-5"
